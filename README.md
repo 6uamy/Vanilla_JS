@@ -24,3 +24,19 @@
 
 - a태그나 submit역할을 하는 form이 실행되면 브라우저가 자동으로 새로고침 되기 때문에 이를 방지하기 위해 사용한다.
 - preventDefault()를 사용하지 않고 submit을 진행할 경우 해당 정보가 submit되는 동시에 브라우저가 <br> 새로고침 되기 때문에 정보를 전달하지 못하고 정보가 초기화 된다.
+
+## ✏️ Window.localStorage()
+
+- 유저의 이름이나 아이디 같은 기억해야 할 데이터를 저장하기 위한 로컬 저장소이다.
+
+### localStorage.setItem('key', 'value');
+
+- localStorage에 key-value 값을 저장한다.
+
+### localStorage.getItem('key');
+
+- localStorage에 저장되어 있는 key값에 대한 value를 가져온다.
+
+### localStorage.removeItem('key');
+
+- localStorage에 있는 해당 key 데이터를 삭제한다.
