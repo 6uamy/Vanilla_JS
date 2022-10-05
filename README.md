@@ -3,7 +3,9 @@
 ### [HTML DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 ## 🚩 Challenge vanilla
+
 - [Random number game](https://github.com/6uamy/Vanilla_JS/tree/main/challenge%231)
+- [Christmas timer](https://github.com/6uamy/Vanilla_JS/tree/main/challenge%232)
 
 ## ✏️ Element.className vs Element.classList
 
