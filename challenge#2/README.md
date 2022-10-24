@@ -1,3 +1,30 @@
+## 🕘setInterval() 함수를 통한 타이머 기능
+
+[구현 코드]
+
+```javascript
+const clock = document.querySelector("h2#clock");
+
+function getClock(){
+    const xmas = new Date("2022-12-25T00:00:00") // 크리스마스 시간 설정
+    const date = new Date();
+    const getDday = xmas.getTime() - date.getTime(); // 현재 시간 부터 남은 시간 계산
+    const day = Math.floor(getDday/(1000*60*60*24));
+    const hours = String(Math.floor((getDday % (1000*60*60*24))/(1000*60*60))).padStart(2, '0');
+    const minutes = String(Math.floor((getDday % (1000*60*60))/(1000*60))).padStart(2, '0');
+    const seconds = String(Math.floor((getDday % (1000*60))/1000)).padStart(2, '0');
+    clock.innerText = `${day}d ${hours}h ${minutes}m ${seconds}s`;
+}
+
+getClock();
+setInterval(getClock, 1000); // function, 1000ms == 1s
+```
+
+[실행 결과]
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/79950091/197567065-9afe7b34-57b5-4809-8526-8dd640d1aefa.gif)
+
+
 ### 🗒️ setTimeout(function, ms)
 
 #### 일정 시간 기다린 후 코드를 실행해야하는 경우에 사용할 수 있다.
