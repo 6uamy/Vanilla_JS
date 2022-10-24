@@ -1,4 +1,4 @@
-## 노마드 코더의 ['바닐라 JS 챌린지'](https://nomadcoders.co/) 학습을 진행하며 기록하기 위한 Repository입니다.
+### 🏷️ 노마드 코더의 ['바닐라 JS 챌린지'](https://nomadcoders.co/) 학습을 진행하며 기록하기 위한 Repository입니다.
 
 ### [HTML DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
