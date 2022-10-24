@@ -6,7 +6,7 @@
 
 - [Random number game](https://github.com/6uamy/Vanilla_JS/tree/main/challenge%231)
 - [Christmas timer](https://github.com/6uamy/Vanilla_JS/tree/main/challenge%232)
-- [toDo site](6uamy.github.io)
+- [toDo site](https://6uamy.github.io/)
 
 ## ✏️ Element.className vs Element.classList
 
